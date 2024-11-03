@@ -3,16 +3,16 @@ Utilize duas funções para realizar os cálculos
 '''
 
 def dobro():
-    print("b")
-    dobro_valor = int(input('Digite um valor para calcularmos o dobro dele: '))
-    return dobro_valor * 2
+    valor = int(input('Digite um valor para calcularmos o dobro dele: '))
+    dobro = valor * 2
+    print(f'O Dobro de {valor} é: {dobro}')
+    return dobro
 
 def triplo():
-    triplo_valor = int(input('Digite um valor para calcularmos o triplo dele: '))
-    return triplo_valor * 3
+    valor = int(input('Digite um valor para calcularmos o triplo dele: '))
+    triplo = valor * 3
+    print(f'O triplo de {valor} é: {triplo}')
+    return triplo
 
-
-print("a")
-valor = dobro()
-
-
+valor1 = dobro()
+valor2 = triplo()
